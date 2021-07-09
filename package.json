@@ -1,6 +1,6 @@
 {
 	"name": "create-foss-files",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Get all the files you need for an open-source project",
 	"repository": "https://github.com/msaaddev/create-foss-files",
 	"author": {
@@ -44,7 +44,6 @@
 		"execa": "^5.1.1",
 		"exit-cli": "^1.0.3",
 		"log-symbols": "^4.1.0",
-		"node-async-exec": "^1.2.0",
 		"node-cli-handle-error": "^1.0.0",
 		"ora": "^5.4.1"
 	}
