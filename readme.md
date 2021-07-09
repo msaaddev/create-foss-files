@@ -47,7 +47,7 @@ npx create-foss-files --javascript
 
 ## 🏗 Directory Structure
 
-Directory tree with `cff``
+Directory tree with `cff`
 
 ```
 └── [project name]
