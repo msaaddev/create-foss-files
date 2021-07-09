@@ -1,0 +1,17 @@
+{
+	"name": "",
+	"version": "1.0.0",
+	"description": "",
+	"repository": "",
+	"author": {
+		"name": "",
+		"email": "",
+		"url": ""
+	},
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"keywords": []
+}
