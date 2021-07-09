@@ -1,0 +1,51 @@
+{
+	"name": "create-foss-files",
+	"version": "1.0.0",
+	"description": "Get all the files you need for an open-source project",
+	"repository": "https://github.com/msaaddev/create-foss-files",
+	"author": {
+		"name": "Saad Irfan",
+		"email": "mrsaadirfan@gmail.com",
+		"url": "https://twitter.com/msaaddev"
+	},
+	"bin": {
+		"create-foss-files": "index.js",
+		"cff": "index.js"
+	},
+	"main": "index.js",
+	"license": "MIT",
+	"files": [
+		"template/*",
+		"index.js"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\"",
+		"test": "node test.js"
+	},
+	"devDependencies": {
+		"prettier": "^2.3.2"
+	},
+	"keywords": [
+		"open source",
+		"foss",
+		"open source files",
+		"license",
+		"code of conduct",
+		"editor configs",
+		"open source project",
+		"javascript",
+		"free and open source software",
+		"Saad Irfan",
+		"msaaddev"
+	],
+	"dependencies": {
+		"chalk": "^4.1.1",
+		"cli-welcome": "^2.2.2",
+		"execa": "^5.1.1",
+		"exit-cli": "^1.0.3",
+		"log-symbols": "^4.1.0",
+		"node-async-exec": "^1.2.0",
+		"node-cli-handle-error": "^1.0.0",
+		"ora": "^5.4.1"
+	}
+}
