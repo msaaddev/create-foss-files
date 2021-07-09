@@ -29,7 +29,7 @@ npx create-foss-files --flag
 
 ## 🚀 Usage
 
-Create a new project folder. Navigate into it.
+Create a new project folder. Navigate into it. Run any of the following command inside of it.
 
 ```sh
 # if installed globally (only generates required files)
