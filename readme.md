@@ -7,7 +7,9 @@
 </div>
 <br>
 
+<p align="center">
 Confused about which files you should have in your open-source project!? Well, I built this tool to help you just with this confusion. With a single command, you get all the files which you should have in you project.
+</p>
 
 ![split](assets/separate.jpg)
 
