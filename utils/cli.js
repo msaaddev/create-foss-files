@@ -13,11 +13,11 @@ module.exports = async (dirName, javaScript = false) => {
 		await command(`git init`);
 		succeed(`Initialized empty git repository.`);
 
-		if (!windows) {
-			start(`Creating git ignore file...`);
-			command(`cp ${paths.gitIgnore} ${cwd}`);
-			succeed(`git ignore file created.`);
+		start(`Creating git ignore file...`);
+		command(`npx @msaaddev/gitignore`);
+		succeed(`git ignore file created.`);
 
+		if (!windows) {
 			start(`Creating git attribute file...`);
 			command(`cp ${paths.gitAttributes} ${cwd}`);
 			succeed(`git attribute file created.`);
@@ -56,10 +56,6 @@ module.exports = async (dirName, javaScript = false) => {
 			command(`cp ${paths.readme} ${cwd}`);
 			succeed(`readme file created.`);
 		} else {
-			start(`Creating git ignore file...`);
-			command(`copy ${paths.winGitIgnore} ${cwd}`);
-			succeed(`git ignore file created.`);
-
 			start(`Creating git attribute file...`);
 			command(`copy ${paths.winGitAttributes} ${cwd}`);
 			succeed(`git attribute file created.`);
