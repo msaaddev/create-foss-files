@@ -1,6 +1,6 @@
 {
 	"name": "create-foss-files",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Get all the files you need for an open-source project",
 	"repository": "https://github.com/msaaddev/create-foss-files",
 	"author": {
@@ -16,6 +16,7 @@
 	"license": "MIT",
 	"files": [
 		"template/*",
+		"utils/*",
 		"index.js"
 	],
 	"scripts": {
