@@ -86,6 +86,10 @@ Directory tree with `cff --javascript`
 
 Make sure you read the [contributing guidelines](https://github.com/msaaddev/create-foss-files/blob/master/contributing.md) before opening a PR.
 
+## ⚡️ Other Projects
+
+I have curated a [detailed list](https://github.com/msaaddev/open-source) of all the open-source projects I have authored. Do take out a moment and take a look.
+
 ## 🔑 License & Conduct
 
 - MIT © [Saad Irfan](https://github.com/msaaddev)
